@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require("express");
 const { google } = require("googleapis");
 const bodyParser = require("body-parser");
@@ -96,3 +97,6 @@ app.post("/schedule", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+=======
+
+>>>>>>> 25142e0150795d5893988bbb9716659dca9ec019
